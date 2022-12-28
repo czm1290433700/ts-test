@@ -1,0 +1,15 @@
+{
+  "name": "ts-test",
+  "description": "test for ts type",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx tsc ./src/index.ts && node ./src/index.js"
+  },
+  "author": "zhenmin",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
